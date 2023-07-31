@@ -36,7 +36,7 @@ def gen_card(bin,exp_m,exp_y,cvv):
 # Main
 try: system("cls")
 except: system("clear")
-a = str(int(input("Bin: ")))
+a = input("Bin: ")
 b = input("Month(Empty for random): ")
 c = input("Year(Empty for random): ")
 d = input("CVV(Empty for random): ")
